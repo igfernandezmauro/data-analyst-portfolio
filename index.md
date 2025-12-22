@@ -26,7 +26,7 @@ Exploratory and statistical analysis of content performance data using Databrick
 - Evaluated model fit and statistical significance of explanatory variables
 - Interpreted results and limitations from an analytical perspective
 
-**[View project →](projects/databricks-notebook.html)**
+**[View project →](projects/cross-platform-engagement.html)**
 
 ---
 
@@ -43,7 +43,7 @@ End-to-end data analysis project completed as the final assignment for a profess
 - Built Tableau dashboards to visualize popularity patterns and comparisons
 - Communicated findings through clear, business-friendly visualizations
 
-**[View project →](projects/certification-final.html)**
+**[View project →](projects/spotify-popularity-featrures.html)**
 
 ---
 
