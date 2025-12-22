@@ -43,7 +43,7 @@ End-to-end data analysis project completed as the final assignment for a profess
 - Built Tableau dashboards to visualize popularity patterns and comparisons
 - Communicated findings through clear, business-friendly visualizations
 
-**[View project →](projects/spotify-popularity-featrures.html)**
+**[View project →](projects/spotify-popularity-features.html)**
 
 ---
 
