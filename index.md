@@ -1,17 +1,66 @@
 ---
 layout: default
-title: Data Analytics Portfolio
+title: Ignacio Fernandez Mauro's Portfolio
 ---
 
-# Data Analytics Portfolio
+# Ignacio Fernandez Mauro
+## Data Engineer | Analytics Engineer | Data & Systems Builder
 
-Data analyst with a background in SQL and analytics workflows, focused on exploring real-world datasets to understand patterns, relationships, and drivers behind measurable outcomes. This portfolio presents hands-on analytics projects developed using Databricks and traditional BI tools, with an emphasis on exploratory analysis, statistical reasoning, and clear communication of results.
+I design and build data systems end-to-end, from ingestion and modeling to analytics and decision-making layers.
 
-**Core tools:** SQL · Databricks · Spark · Excel · Tableau · Statsmodels · GitHub
+My background spans software development, data engineering, and analytics. I focus on building reliable data pipelines, well-modeled storage systems, and practical analytics that drive real-world feedback loops.
+
+My projects range from exploratory data analytics to fully serverless AWS data platforms with event-driven modeling and API layers.
+
+## Tools & Technologies
+### Data Engineering
+- AWS Lambda
+- Amazon DynamoDB
+- Amazon S3
+- API Gateway
+- EventBridge Scheduler
+- Python
+- Event-driven architecture
+- Change detection via hashing
+- Incremental state modeling
+
+### Data Analytics
+- SQL
+- Python (Pandas, NumPy)
+- Tableau
+- Excel
+- Exploratory data analysis
+- Statistical reasoning
+
+### Software Development
+- REST APIs
+- HTML / JavaScript
+- Git
+- Object-oriented programming
+- Data modeling
 
 ---
 
-## Featured Projects
+## Data Engineering Projects
+
+### 1. Magic: the Gathering Commander Tracker (AWS Serverless Data Platform)
+**Tools:** AWS Lambda · API Gateway · DynamoDB · S3 · JavaScript · React (UI) · Serverless REST APIs
+
+**Summary:**
+Built an autonomous system that syncs deck data from _Archidekt_, stores snapshots and diffs over time, tracks user-logged play events, and serves analytics via REST APIs. The UI allows game logging on mobile, time-zone converted timestamps, and a smart deck picker that balances freshness and randomness.
+
+**Key contributions:**
+- Event log design and DynamoDB modeling
+- Serverless cloud architecture (Lambda + S3 + DynamoDB)
+- API design with stage deployments and CORS
+- Frontend UI for asynchronous data updates
+- UX considerations for mobile data input
+
+**[View project →](projects/data-engineering/mtg-commander-tracker.html)**
+
+---
+
+## Data Analytics Projects
 
 ### 1. Content Performance Analysis with Databricks
 **Tools:** Databricks · Spark · Python · Statsmodels · Matplotlib
@@ -26,7 +75,7 @@ Exploratory and statistical analysis of content performance data using Databrick
 - Evaluated model fit and statistical significance of explanatory variables
 - Interpreted results and limitations from an analytical perspective
 
-**[View project →](projects/cross-platform-engagement.html)**
+**[View project →](projects/data-analytics/cross-platform-engagement.html)**
 
 ---
 
@@ -43,7 +92,7 @@ End-to-end data analysis project completed as the final assignment for a profess
 - Built Tableau dashboards to visualize popularity patterns and comparisons
 - Communicated findings through clear, business-friendly visualizations
 
-**[View project →](projects/spotify-popularity-features.html)**
+**[View project →](projects/data-analytics/spotify-popularity-features.html)**
 
 ---
 
@@ -51,15 +100,15 @@ End-to-end data analysis project completed as the final assignment for a profess
 
 Projects in this portfolio follow a consistent analytics workflow:
 
-1. **Understand the dataset and question** — clarify scope, assumptions, and limits  
-2. **Prepare the data** — clean, validate, and structure for analysis  
-3. **Explore relationships** — apply descriptive analysis or statistical models  
-4. **Communicate insights** — present findings clearly using visuals and narrative  
+1. **Understand the dataset and question** - clarify scope, assumptions, and limits  
+2. **Prepare the data** - clean, validate, and structure for analysis  
+3. **Explore relationships** - apply descriptive analysis or statistical models  
+4. **Communicate insights** - present findings clearly using visuals and narrative  
 
 ---
 
-## About This Portfolio
-
-All projects presented here are individual and reproducible analyses. Notebooks, queries, dashboards, and supporting materials are linked within each project page.
-
-This portfolio is intended for data analyst and analytics-focused roles and reflects practical experience with real datasets, exploratory analysis, and data storytelling.
+## Current Focus
+- Designing event-driven data architectures in AWS
+- Modeling state vs immutable event tables in DynamoDB
+- Building feedback loops between systems and analytics
+- Expanding into scalable aggregation patterns
